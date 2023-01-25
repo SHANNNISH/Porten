@@ -123,7 +123,7 @@ a {
   align-items: center;
   color: white;
 }
-.section-second_vector {
+.vector {
   border: 1px solid white;
   width: 120px;
 }
@@ -257,7 +257,7 @@ a {
 }
 
 .section-fourth__watch-container {
-  margin: 10%;
+  margin: 0% 10%;
   background-color: #191b1c;
   padding: 15%;
   display: flex;
@@ -265,7 +265,7 @@ a {
 }
 
 .section-fourth__flex-container {
-  margin-top: 5%;
+  margin-top: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
