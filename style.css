@@ -199,6 +199,9 @@ a {
   align-items: center;
   display: flex;
 }
+.section-third__rightside h1 {
+  font-family: "Playfair Display", serif;
+}
 .section-third__rightside {
   text-align: center;
   justify-content: center;
@@ -210,6 +213,7 @@ a {
   width: 60%;
 }
 .section-third__rightside p {
+  margin-top: 3%;
   width: 50%;
 }
 .section-third__leftside {
@@ -217,4 +221,14 @@ a {
   height: 70vh;
   background: url(img/thirdSection/Rectangle\ 9.png);
   background-size: cover;
+}
+
+.button-section-third {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 3%;
+  color: white;
+  padding: 1% 10%;
+  border: 1px solid white;
+  background-color: rgba(28, 28, 28, 0);
 }
