@@ -16,6 +16,9 @@ body {
   font-family: "Post No Bills Jaffna Medium", sans-serif;
 }
 
+.header__first-line_text {
+  margin: 20px;
+}
 .section-first_content h1 {
   margin: 0;
   font-size: 64px;
@@ -79,7 +82,7 @@ a {
 
 .section-first_content {
   color: #ffffff;
-  background-image: url(/img/firstBG.png);
+  background-image: url(img/firstSection/firstBG.png);
   display: flex;
   justify-content: center;
   align-items: center;
