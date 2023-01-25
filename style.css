@@ -270,3 +270,21 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.footer-brands {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  background: #0f0f0f;
+}
+.brands__img-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 2% 5%;
+}
+.brands__img-container img {
+  padding: 0% 4%;
+}
