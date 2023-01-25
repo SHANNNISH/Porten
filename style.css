@@ -232,3 +232,41 @@ a {
   border: 1px solid white;
   background-color: rgba(28, 28, 28, 0);
 }
+
+.section-fourth {
+  background-color: #000000;
+  text-align: center;
+  height: 100vh;
+}
+.section-fourth__header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-fourth h1 {
+  padding-top: 2%;
+  margin-top: 0%;
+}
+.section-fourth__grid-container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* justify-items: center; */
+}
+
+.section-fourth__watch-container {
+  margin: 10%;
+  background-color: #191b1c;
+  padding: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-fourth__flex-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
