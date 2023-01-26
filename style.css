@@ -6,6 +6,15 @@ font-family: 'PT Sans', sans-serif; */
 h1 {
   font-size: 36px;
 }
+button {
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover {
+  transition: 0.5s;
+  color: black;
+  background-color: white;
+}
 body {
   color: white;
   margin: 0;
@@ -355,10 +364,16 @@ a {
   background: #0f0f0f;
   text-align: center;
 }
+
+.newsletter__container {
+  margin-top: 5%;
+}
 .newsletter__container input {
+  height: 42px;
+  border: 0;
   background: #ffffff66;
   opacity: 100%;
-  padding: 3% 7%;
+  padding: 0% 7%;
 }
 .newsletter__container input::placeholder {
   font-family: "PT Sans", sans-serif;
@@ -366,9 +381,10 @@ a {
 }
 
 .newsletter__button {
+  height: 42px;
   font-size: 14px;
   font-family: "PT Sans", sans-serif;
   background-color: #000000;
   color: white;
-  padding: 3% 7%;
+  padding: 0% 7%;
 }
