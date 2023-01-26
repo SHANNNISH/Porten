@@ -140,7 +140,6 @@ a {
 }
 
 .section-second__leftside-header {
-  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,6 +159,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5%;
 }
 .section-second__leftside_watch-content {
   line-height: 40px;
@@ -292,20 +292,63 @@ a {
 }
 
 .footer-about h2 {
-  margin: 0px;
+  margin-bottom: 10%;
 }
 .footer-about {
+  height: 40vh;
   padding-left: 20%;
   padding-right: 20%;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
   background: url(img/footer/bg.png) no-repeat;
   background-size: cover;
 }
 .footer-rights p {
   margin: 0;
 }
+
+.about-store {
+  margin: 20% 0px;
+  margin-right: 10%;
+}
+
+.categories {
+  margin: 20% 0px;
+
+  margin-right: 3%;
+}
+.categoris__container p {
+  border: 1px solid white;
+  width: 350%;
+  text-align: center;
+  /* background-color: #191b1c; */
+  padding: 1%;
+  margin: 20% 0%;
+}
+
+.footer-about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categoris__container {
+  width: min-content;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /* display: flex; */
+}
+.newsletter p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.newsletter {
+  margin: 20% 0px;
+}
+
 .footer-rights {
   padding: 1% 20%;
   display: flex;
@@ -314,34 +357,8 @@ a {
   background: #0f0f0f;
   text-align: center;
 }
-.about-store p {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
+.newsletter__container input {
+  background: #ffffff66;
 
-.about-store {
-  margin-right: 3%;
-  width: 33%;
-}
-
-.categories {
-  margin-right: 3%;
-  width: 33%;
-}
-.categoris__container p {
-  background-color: #191b1c;
-  padding: 1%;
-  margin: 2%;
-}
-.categoris__container {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  display: flex;
-}
-.newsletter p {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-.newsletter {
-  width: 33%;
+  padding: 1% 2%;
 }
