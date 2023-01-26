@@ -366,6 +366,7 @@ a {
 }
 
 .newsletter__container {
+  display: flex;
   margin-top: 5%;
 }
 .newsletter__container input {
