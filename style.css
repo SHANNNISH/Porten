@@ -281,6 +281,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.section-fourth img {
+  width: 100%;
+  height: auto;
+}
 
 .footer-brands {
   flex-direction: column;
@@ -323,6 +327,10 @@ a {
   margin-right: 10%;
 }
 
+.brands__img-container img {
+  height: auto;
+  width: 100%;
+}
 .categories {
   margin: 20% 0px;
 
@@ -389,3 +397,15 @@ a {
   color: white;
   padding: 0% 7%;
 }
+
+/* MEDIA */
+
+@media (max-width: 3800px) {
+  .section-second__leftside {
+    height: 60vh;
+  }
+
+  .section-second__rightside {
+    height: 60vh;
+  }
+} ;
