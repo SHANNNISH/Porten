@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+  body{
+    color: red;
+  }
 }
 @media (max-width: 992px) {
 }
