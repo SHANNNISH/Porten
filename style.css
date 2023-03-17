@@ -93,6 +93,7 @@ a {
 }
 
 .section-first_content {
+ 
   color: #ffffff;
   background: url(img/firstSection/firstBG.png) no-repeat;
   display: flex;
@@ -121,7 +122,8 @@ a {
   padding: 3%;
 }
 
-.section-second {
+.section-second { 
+  height: auto;
   margin: 0;
   text-align: center;
   font-family: "Playfair Display", serif;
@@ -134,17 +136,7 @@ a {
   border: 1px solid white;
   width: 120px;
 }
-.section-second__rightside {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
-  background: url(img/secondSection/bg.png);
-  background-size: cover;
-
-  width: 50%;
-}
 
 .section-second__leftside-header {
   display: flex;
@@ -153,6 +145,7 @@ a {
   justify-content: center;
 }
 .section-second__leftside {
+  height:50vh;
   width: 50%;
   background-color: black;
 }
@@ -198,8 +191,23 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30%;
+
+  
+  margin:  auto;
 }
+
+.section-second__rightside {
+  height:50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(img/secondSection/bg.png) no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+
 .section-third {
   /* justify-content: center;
   align-items: center; */
@@ -303,13 +311,12 @@ a {
   margin-bottom: 10%;
 }
 .footer-about {
-  height: 60vh;
+  height: 40vh;
   padding-left: 20%;
   padding-right: 20%;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 3fr;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
   background: url(img/footer/bg.png) no-repeat;
   background-size: cover;
 }
@@ -318,8 +325,8 @@ a {
 }
 
 .about-store {
-  margin: 20% 0px;
-  margin-right: 10%;
+  width: 30%;
+  /* margin-right: 10%; */
 }
 
 .brands__img-container img {
@@ -327,15 +334,14 @@ a {
   width: 100%;
 }
 .categories {
-  margin: 20% 0px;
-
+  width: 30%;
+   margin: 20% 0px;
   margin-right: 3%;
 }
 .categoris__container p {
   border: 1px solid white;
   width: 350%;
   text-align: center;
-  /* background-color: #191b1c; */
   padding: 1%;
   margin: 20% 0%;
 }
@@ -349,13 +355,13 @@ a {
   width: min-content;
   margin-top: 2%;
   margin-bottom: 2%;
-  /* display: flex; */
 }
 .newsletter p {
   margin-top: 2%;
   margin-bottom: 2%;
 }
 .newsletter {
+  width: 30%;
   margin: 20% 0px;
 }
 
@@ -393,14 +399,3 @@ a {
   padding: 0% 7%;
 }
 
-/* MEDIA */
-
-@media (max-width: 3800px) {
-  .section-second__leftside {
-    height: 60vh;
-  }
-
-  .section-second__rightside {
-    height: 60vh;
-  }
-} ;
