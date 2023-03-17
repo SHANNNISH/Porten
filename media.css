@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  .header__first-line {
+    padding: 0% 2%;
+  }
+  .header__second-line {
+    padding: 0% 2%;
+  }
+
+  .header__second-line_text {
+    white-space: nowrap;
+    margin: 0 10px;
+  }
+  .section-first_content__porten-logo {
+    margin: 3%;
+    border: 2px solid white;
+    padding: 1%;
+  }
+}

@@ -36,9 +36,6 @@ body {
   margin: 0;
   font-size: 64px;
 }
-.section-first {
-  height: 100vh;
-}
 
 .sign {
   margin-left: 20px;
@@ -48,6 +45,7 @@ body {
   font-size: 14px;
 }
 .header__first-line {
+  white-space: nowrap;
   font-size: 12px;
   height: 4vh;
   padding: 0px 15%;
@@ -71,8 +69,8 @@ body {
 }
 
 .header__second-line {
-  padding: 0px 15%;
-  height: 6vh;
+  padding: 0pc 15%;
+
   color: gray;
   background-color: #0f0f0f;
   display: flex;
@@ -90,7 +88,8 @@ a {
 }
 
 .header__second-line_text {
-  margin: 60px;
+  white-space: nowrap;
+  margin: 30px;
 }
 
 .section-first_content {
@@ -100,8 +99,8 @@ a {
   justify-content: center;
   align-items: center;
   background-size: cover;
+  background-repeat: no-repeat;
   flex-direction: column;
-  height: 90vh;
   text-align: center;
 }
 .porten-logo__vector {
@@ -109,7 +108,7 @@ a {
   width: 100%;
 }
 .section-first_content_text {
-  width: 30%;
+  padding: 10% 30%;
   font-size: 16px;
   line-height: 24px;
   text-decoration: underline;
@@ -118,9 +117,9 @@ a {
   font-size: 22px;
 }
 .section-first_content__porten-logo {
-  margin-bottom: 10%;
+  margin: 5%;
   border: 4px solid white;
-  padding: 5%;
+  padding: 3%;
 }
 
 .section-second {
@@ -141,11 +140,11 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+
   background: url(img/secondSection/bg.png);
   background-size: cover;
 
-  width: 40%;
+  width: 50%;
 }
 
 .section-second__leftside-header {
@@ -155,8 +154,7 @@ a {
   justify-content: center;
 }
 .section-second__leftside {
-  height: 90vh;
-  width: 60%;
+  width: 50%;
   background-color: black;
 }
 .section-second img {
@@ -204,8 +202,8 @@ a {
   margin-top: 30%;
 }
 .section-third {
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   display: flex;
 }
 .section-third__rightside h1 {
@@ -218,17 +216,16 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #000000;
-  height: 90vh;
-  width: 60%;
+  width: 50%;
 }
 .section-third__rightside p {
   margin-top: 3%;
   width: 50%;
 }
 .section-third__leftside {
-  width: 40%;
-  height: 90vh;
-  background: url(img/thirdSection/Rectangle\ 9.png);
+  width: 50%;
+
+  background-image: url(img/thirdSection/Rectangle.png);
   background-size: cover;
 }
 
@@ -245,7 +242,6 @@ a {
 .section-fourth {
   background-color: #000000;
   text-align: center;
-  height: 100vh;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -291,7 +287,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+
   background: #0f0f0f;
   padding-left: 20%;
   padding-right: 20%;
