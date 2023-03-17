@@ -209,8 +209,7 @@ a {
 
 
 .section-third {
-  /* justify-content: center;
-  align-items: center; */
+ 
   display: flex;
 }
 .section-third__rightside h1 {

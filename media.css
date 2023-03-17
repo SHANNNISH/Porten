@@ -4,6 +4,27 @@
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
+  .section-third {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-third__leftside{
+    display: none;
+  }
+
+  .section-third__rightside{
+    background: rgb(15, 15, 15);
+    width: 100%;
+  }
+
+  .section-third__rightside p {
+    margin-top: 3%;
+    width: 90%;
+    
+  }
 }
 @media (max-width: 576px) {
   .header__first-line {
@@ -22,4 +43,6 @@
     border: 2px solid white;
     padding: 1%;
   }
+
+
 }
